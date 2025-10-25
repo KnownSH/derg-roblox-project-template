@@ -1,0 +1,16 @@
+{
+   process: [
+      "compute_expression",
+      "convert_square_root_call",
+      {
+         rule: "convert_require",
+         current: {
+            name: "luau"
+         },
+         target: {
+            name: "roblox",
+            rojo_sourcemap: "sourcemap.json"
+         }
+      }
+   ]
+}

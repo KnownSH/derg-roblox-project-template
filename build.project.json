@@ -1,0 +1,29 @@
+{
+  "name": "ActuallyFinalizedGame",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "shared": {
+        "$path": "out/shared"
+      },
+      "roblox_packages": {
+        "$path": "roblox_packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "server": {
+        "$path": "out/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "client": {
+          "$path": "out/client"
+        }
+      }
+    }
+  }
+}

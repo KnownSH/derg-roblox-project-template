@@ -1,0 +1,34 @@
+name = "derg/game"
+version = "0.1.0"
+license = "ARR"
+
+[target]
+environment = "roblox"
+
+[place]
+shared = "game.ReplicatedStorage.roblox_packages"
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[scripts]
+roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
+
+[dev_dependencies]
+scripts = { name = "pesde/scripts_rojo", version = "^0.2.0", target = "lune" }
+rojo = { name = "pesde/rojo", version = "^7.6.0", target = "lune" }
+asphalt = { name = "pesde/asphalt", version = "^1.1.0+toolchainlib.1", target = "lune" }
+darklua = { name = "pesde/darklua", version = "^0.17.2", target = "lune" }
+blink = { name = "1axen/blink", version = "^0.18.6", target = "lune" }
+
+[engines]
+pesde = "^0.7.0"
+lune = "^0.10.4"
+
+[dependencies]
+jecs = { wally = "ukendio/jecs", version = "^0.9.0" }
+

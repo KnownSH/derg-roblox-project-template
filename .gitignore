@@ -1,0 +1,15 @@
+# Project place file
+/ActuallyFinalizedGame.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Preprocessor
+out/
+
+# Pesde
+roblox_packages/
+lune_packages/
+luau_packages/
+.pesde/
