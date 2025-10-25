@@ -1,0 +1,10 @@
+[creator]
+type = "user"
+id = 56814266
+
+[codegen]
+style = "nested"
+
+[inputs.assets]
+path = "resources/assets/**/*"
+output_path = "src/shared"

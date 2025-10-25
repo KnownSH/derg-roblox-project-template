@@ -2,6 +2,7 @@
    "languageMode": "strict",
    "aliases": {
       "shared": "src/shared",
+      "data": "resources/data",
       "pkgs": "roblox_packages"
    }
 }
