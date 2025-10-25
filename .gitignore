@@ -1,6 +1,8 @@
 # Project place file
 /ActuallyFinalizedGame.rbxlx
 
+/sourcemap.json
+
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
